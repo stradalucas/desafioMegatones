@@ -1,0 +1,383 @@
+/* Browsers: last 5 version*/
+
+a {
+    color: var(--black400);
+    text-decoration: none;
+    border: 0
+}
+.App-footer {
+    min-height: 240px;
+    border-top: 1px solid var(--black100);
+    border-bottom: 1px solid var(--black100);
+    -webkit-box-sizing: initial;
+    box-sizing: initial;
+    font-family: 'NovaLight', 'Trebuchet MS';
+    text-align: center;
+}
+.FTop {
+    padding: 10px 0px 20px;
+    border-bottom: 1px solid var(--black100);
+}
+.FTop .Suscripcion-txtSuscribite {
+    font-size: 36px;
+    color: var(--black400);
+    margin-bottom: 15px;
+    text-align: left;
+    letter-spacing: -1px;
+}
+.FTop .Suscripcion-email {
+    width: 50vw;
+    max-width: 400px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 26px;
+    font-family: 'NovaLight', 'Trebuchet MS';
+    vertical-align: middle;
+    border-radius: 3px;
+    border: 1px solid var(--black300);
+    padding-left: 10px;
+}
+.FTop .Suscripcion-btn {
+    height: 45px;
+    width: 98px;
+    border-radius: 3px;
+    border: 0;
+    background-color: var(--black200);
+    font-size: 19px;
+    color: var(--white);
+    vertical-align: middle;
+    font-family: 'NovaLight', 'Trebuchet MS';
+    margin-left: 5px;
+}
+.FTop .Suscripcion-btn:hover {
+    background-color: var(--red200);
+    cursor: pointer;
+}
+.FTop .Suscripcion-Resultado {
+    font-size: 30px;
+    margin: 16px 0;
+    line-height: 10px;
+    max-width: 600px;
+}
+.FTop #F-SuscripcionVal {
+    color: var(--green400);
+}
+.FTop #F-SuscripcionError {
+    color: var(--red200);
+}
+.FTop .Volver {
+    cursor: pointer;
+    color: var(--black500);
+    font-weight: bold;
+}
+.FTop .Suscripcion-Resultado img {
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    vertical-align: middle;
+}
+.FTop .VtaTel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 50px 0;
+    color: var(--black400);
+}
+.FTop .VtaTel-iconoTel {
+    margin-top: 2px;
+    width: 35px;
+    height: 36px;
+    background: url(../../images/telefono.svg);
+}
+.FTop .VtaTel-txtNumTel, .FTop .VtaTel-txtVtaTel {
+    margin-left: 10px;
+    color: var(--red400);
+}
+.FTop .VtaTel-txtNumTel {
+    font-family: 'NovaBold';
+}
+.FTop .VtaTel-txtHorarios span {
+    font-weight: bold;
+}
+.FTop .VtaTel-txtEmail {
+    display: block;
+}
+.FTop .RedesSociales a {
+    float: left;
+}
+.FTop .RedesSociales img {
+    width: 35px;
+    height: 35px;
+    margin: 0 10px;
+}
+.FTop .VtaTel-contenedor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 31px;
+    line-height: 31px;
+}
+.FTop .VtaTel-contenedor>div:first-child {
+    font-size: 31px;
+    line-height: 31px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.FTop .VtaTel-contenedor>div:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 12px;
+}
+.FMain {
+    width: 100%;
+    background-color: var(--white100);
+    font-family: 'NovaLight';
+}
+.FMain .Lista-seccion {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.FMain .Lista-titulo {
+    cursor: pointer;
+    font-size: 33px;
+    color: var(--black);
+    padding-top: 25px;
+}
+.FMain .Lista-fila {
+    display: -ms-grid;
+    display: grid;
+    line-height: 28px;
+    overflow: hidden;
+    max-height: 700px;
+    -webkit-transition: max-height .7s ease 0s;
+    -o-transition: max-height .7s ease 0s;
+    transition: max-height .7s ease 0s;
+}
+.FMain .Toggle {
+    max-height: 0px;
+}
+.FMain .Lista-item {
+    font-size: 33px;
+    line-height: 60px;
+    color: var(--black500);
+}
+.FMain .Lista-item:hover {
+    text-decoration: underline
+}
+.FMain .VtasCorp {
+    width: 150px;
+    height: 24px;
+    background: url(../../images/ventascorp.svg) no-repeat;
+    background-size: contain;
+    margin: 7px 0 17px;
+}
+.FMain .Ekomi {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+.FMain .Ekomi-stars-white {
+    background: url("https://sw-assets.ekomiapps.de/resources/stars_light_grey-132x24.png.png");
+    background-repeat: no-repeat;
+    width: 132px;
+    height: 24px;
+    margin: 16px 0;
+    margin-left: 15px;
+}
+.FMain .Ekomi-stars-yellow {
+    background: url("https://sw-assets.ekomiapps.de/resources/stars_light_yellow-132x24.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 108px;
+}
+@media(min-width:800px) {
+    .FTop {
+        padding: 20px 0;
+    }
+    .FTop .VtaTel-iconoTel {
+        display: block;
+    }
+}
+@media(min-width:1000px) {
+    .Contenedor {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+    .FTop>.Contenedor {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    .FTop .Suscripcion {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+    .FTop .Suscripcion-email {
+        height: 40px;
+        font-size: 17px;
+        width: 225px;
+    }
+    .FTop .Suscripcion-btn {
+        height: 40px;
+        font-size: 19px;
+        width: 110px;
+    }
+    .FTop .Suscripcion-Resultado {
+        font-size: 18px;
+        margin: 0;
+        width: 340px;
+        line-height: 20px;
+    }
+    .FTop #F-SuscripcionVal img {
+        float: left;
+    }
+    .FTop .VtaTel-iconoTel {
+        display: none;
+    }
+    .FTop .VtaTel {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin: 0;
+    }
+    .FTop .VtaTel-contenedor {
+        font-size: 16px;
+        line-height: 16px;
+        text-align: start;
+        margin-left: 10px;
+        gap: 3px;
+    }
+    .FTop .VtaTel-contenedor>div:first-child {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+    .FTop .VtaTel-contenedor>div:nth-child(2) {
+        gap: 3px;
+    }
+    .FTop .VtaTel-txtNumTel, .VtaTel-txtVtaTel {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .FTop .VtaTel-txtVtaTel {
+        margin-left: 0;
+    }
+    .FTop .RedesSociales {
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        display: block;
+    }
+    .FTop .RedesSociales a img {
+        width: 35px;
+        height: 35px;
+        margin: auto 5px;
+    }
+    .FMain .Contenedor {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+    .FMain .Lista-seccion {
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        padding: 20px 0;
+        -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
+    }
+    .FMain .Lista-titulo {
+        font-size: 17px;
+        text-align: left;
+        padding: 0;
+    }
+    .FMain .Lista-fila {
+        text-align: left;
+        margin-top: 10px;
+    }
+    .FMain .Toggle {
+        max-height: unset;
+    }
+    .FMain .Lista-item {
+        line-height: 28px;
+        font-size: 15px;
+        color: var(--black400);
+    }
+    .FMain .Ekomi {
+        width: 201px;
+        padding: 0;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+}
+@media(min-width:1200px) {
+    .FTop .Suscripcion-email {
+        width: 270px;
+    }
+    .FTop .Suscripcion-Resultado {
+        width: 385px;
+    }
+    .FTop .RedesSociales {
+        padding-left: 40px;
+    }
+    .FMain .VtasCorp {
+        width: 219px;
+        height: 35px;
+    }
+    .FTop .VtaTel-txtHorarios {
+        margin-left: 3px;
+    }
+    .FTop .VtaTel-contenedor>div:nth-child(2) {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+}
+@media(min-width:1500px) {
+    .FTop>.Contenedor {
+        padding: 0;
+    }
+}

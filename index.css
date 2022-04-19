@@ -1,0 +1,124 @@
+/*
+* Browsers: last 5 version
+*/
+
+@font-face {
+    font-family: 'NovaBold';
+    src: url('./assets/fonts/proximanova-bold.otf') format('opentype')
+}
+@font-face {
+    font-family: 'NovaLight';
+    src: url(./assets/fonts/proxima-nova-300.woff2) format('woff2')
+}
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root {
+    --white: #fff;
+    --white200: #f4f4f4;
+    --black100: #e4e4e4;
+    --black200: #aaaaaa;
+    --black300: #999999;
+    --black400: #444;
+    --black500: #555;
+    --black600: #191919;
+    --black: #000;
+    --grey-400: #00a100;
+    --red200: #e53306;
+    --red400: #e6460d;
+    --red600: #eb4212;
+}
+html, body {
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    text-size-adjust: none;
+    scroll-behavior: smooth;
+}
+*::-webkit-scrollbar {
+    width: 12px;
+}
+*::-webkit-scrollbar-track {
+    background: var(--black100);
+}
+*::-webkit-scrollbar-thumb {
+    background-color: var(--red600);
+    border-radius: 20px;
+    border: 3px solid var(--black100);
+}
+
+/* Breakpoint	Class infix	Dimensions
+X-Small	None<400px
+Small	sm	>400px
+Medium	md	>500px
+Large	lg	>600px
+*/
+
+
+/* dNone	Class infix	Dimensions
+dNone       alls
+dN-sm       >400px
+dN-md       >500px
+dN-lg       >600px
+*/
+
+body {
+    padding: 0;
+    margin: 0
+}
+img {
+    border: 0
+}
+.Contenedor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.dN {
+    display: none !important;
+}
+.sm {
+    display: none;
+}
+.lg {
+    display: none !important;
+}
+.md {
+    display: none !important;
+}
+@media(min-width:800px) {
+    .dN-sm {
+        display: none !important;
+    }
+    .sm {
+        display: block;
+    }
+}
+@media(min-width:1000px) {
+    .md {
+        display: block !important;
+    }
+}
+@media(min-width:1200px) {
+    .dN-lg {
+        display: none !important;
+    }
+    .lg {
+        display: block !important;
+    }
+}

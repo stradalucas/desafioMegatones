@@ -1,0 +1,21 @@
+{
+    "name": "desafiomegatones",
+    "version": "1.0.0",
+    "description": "",
+    "main": "Celular.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "ts-node ./celular/celular.ts",
+        "build": "tsc ./celular/celular.ts"
+
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "ts-node": "^9.1.1",
+        "typescript": "^4.2.3"
+    },
+    "dependencies": {
+        "jsonfile": "^6.1.0"
+    }
+}

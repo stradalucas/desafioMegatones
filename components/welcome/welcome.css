@@ -1,0 +1,61 @@
+/*Browsers: last 5 version*/
+
+.Welcome {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+.Welcome img:hover, .Welcome img:active {
+    -webkit-animation: shake 1s forwards;
+    animation: shake 1s forwards;
+}
+.Welcome img {
+    width: 200px;
+    border: 0;
+    -webkit-filter: drop-shadow(2px 4px 6px black);
+    filter: drop-shadow(2px 4px 6px black);
+}
+@-webkit-keyframes shake {
+    10% {
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+    20% {
+        -webkit-transform: rotate(-15deg);
+        transform: rotate(-15deg);
+    }
+    30% {
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+    50% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+@keyframes shake {
+    10% {
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+    20% {
+        -webkit-transform: rotate(-15deg);
+        transform: rotate(-15deg);
+    }
+    30% {
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+    50% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}

@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132 24" width="132" height="24">
+	<title>stars_light_yellow-132x24</title>
+	<defs>
+		<image  width="132" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAAAYCAMAAAAMPqWtAAAAAXNSR0IB2cksfwAAAGBQTFRFAAAA/tNQ/tNQ/tNQ/tNQ/tNQ/tNQ/tNQ/tNQ/tNQ/tNQ/tNQ/tNQ/tNQ/tNQ/tNQ/tNQ/tNQ/tNQ/tNQ/tNQ/tNQ/tNQ/tNQ/tNQ/tNQ/tNQ/tNQ/tNQ/tNQ/tNQ/tNQVfQzzwAAACB0Uk5TAEDITv/TWwfcaWgjV+aJwPCgFS35gYWk4JYc95OOUBcxemQLAAAA2UlEQVR4nMXVSRaDIBAEUNBWSRxwnof73zJOiU2C20pthP7WxocPIa5IKe6CI8e57cDIJXJvKjjyiLybDox8WuNbKzAK1AYqsFRw9KA9T0sHRWEUHxBH4T8ojBKdEkuqk1NhlJE1mUBS4NjmznZogJSr37nK968HpDD+nsfvAwOkIjXnafE5yUCSJZ+X/IIDUsWhEjw4qjnURgdHDYfG6OBIc9BGB0cth9bowCjYT2zZdceTX7E46tftMPbrYhzWZc86OJI0TOeunwYyfmsYzdNyvbVMM+tA6AXuFi1qdle8IAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>
